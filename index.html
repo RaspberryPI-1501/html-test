@@ -198,3 +198,25 @@
     </footer>
 </body>
 </html>
+<css>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        color: var(--text-color-normal);
+    }
+    html {
+        --text-color-normal: #0a244d;
+        --text-color-light: #8cabd9;
+      }
+      
+      html[data-theme='dark'] {
+        --text-color-normal: hsl(210, 10%, 62%);
+        --text-color-light: hsl(210, 15%, 35%);
+        --text-color-richer: hsl(210, 50%, 72%);
+        --text-color-highlight: hsl(25, 70%, 45%);
+      }
+    </style>
+</css>
